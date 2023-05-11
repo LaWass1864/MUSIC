@@ -1,4 +1,8 @@
 // Import de tous les fichiers
 
-@use "./settings";
-@use '../styles/layouts/body';
+@use './settings';
+@use '../styles/layouts/nav';
+@use '../styles/layouts/header';
+@use '../styles/layouts/content';
+@use '../styles/layouts/musicband';
+@use '../styles/layouts/musiccontrol'
