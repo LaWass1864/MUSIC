@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
 body {
-  background: #FFAA00;
-  font-family: "Quicksand", sans-serif;
+  background: #ffaa00;
+  box-sizing: border-box;
+  font-family: DM Sans;
 }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }/*# sourceMappingURL=index.css.map */

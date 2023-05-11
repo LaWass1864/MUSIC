@@ -1,15 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
 
-// Typography Quicksand
-
-@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
-body{
-    background: #FFAA00;
-    font-family: 'Quicksand', sans-serif;
+body {
+  background: $nightblue;
+  box-sizing: border-box;
+  font-family: DM Sans;
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+// Colors
+
+$nightblue: #33354a;
+$pinkbirth: #ffe1d5;
+$bluebirth: #d5edff;
+$whitebaby: #ffffff;
