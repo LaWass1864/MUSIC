@@ -1,10 +1,9 @@
-
 // Colors
 
 $nightblue: #12131a;
-$violetvine: #463249;
-$yellowsun: #F9F871;
-$whitebaby: #D2766A;
+$violetvine: #562f5c;
+$yellowsun: #f9f871;
+$whitebaby: #eedfdd;
 
 // Typographie DM Sans
 
@@ -14,9 +13,19 @@ body {
   background: $nightblue;
   box-sizing: border-box;
   font-family: DM Sans;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px;
+  color: $nightblue;
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
 }

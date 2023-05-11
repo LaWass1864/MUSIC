@@ -1,0 +1,14 @@
+header{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3{
+        text-transform: capitalize;
+    }
+    img{
+        width: 30px;
+        height: 30px;
+    }
+}

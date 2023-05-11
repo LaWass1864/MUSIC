@@ -3,13 +3,80 @@ body {
   background: #12131a;
   box-sizing: border-box;
   font-family: DM Sans;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px;
+  color: #12131a;
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  background: #eee9e9;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 500px;
+  border-radius: 35px;
+}
+
+nav {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .settings {
+  display: flex;
+}
+nav .settings img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+header {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h3 {
+  text-transform: capitalize;
+}
+header img {
+  width: 30px;
+  height: 30px;
 }
 
 .content {
-  background: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+.content img {
+  width: 150px;
+  height: 150px;
+}
+.content h4 {
+  font-weight: 900;
+}
+
+.music-control {
+  display: flex;
+  justify-content: space-between;
+}
+.music-control img {
+  width: 35px;
+  height: 35px;
 }/*# sourceMappingURL=index.css.map */
