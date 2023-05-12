@@ -1,0 +1,38 @@
+.music-band{
+    background: pink;
+    position: relative;
+    margin: 0 auto;
+	width: 92.5%;
+#timeline{
+    span{
+        color: darken(white, 30%);
+		font-size: 7px;
+		position: absolute;
+		top: -10px;
+
+        #current-time{
+            left: 0;
+        }
+
+        #total-time{
+            right: 0;
+        }
+    }
+    .slider{
+        background-color: darken(white, 50%);
+		border-radius: 2px;
+		cursor: pointer;
+		height: 2px;
+		position: relative;
+		width: 100%;
+
+        .progress{
+            background-color: red;
+			height: 100%;
+			pointer-events: none;
+			position: absolute;
+			width: 0;
+        }
+    }
+}
+}
