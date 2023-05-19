@@ -6,17 +6,17 @@ header{
 
     h3{
         text-transform: capitalize;
-
-        @media only screen 
-        and (min-device-width: 320px) 
-        and (max-device-width: 480px)
-        and (-webkit-min-device-pixel-ratio: 2) {
-      font-size: 0.5rem;
-      }
+        font-size: 1.5rem;
+        @media screen and (max-width: 545px) {
+          font-size: 0.7rem;
       
+        }
     }
     img{
-        width: 30px;
-        height: 30px;
+        width: 15%;
+        aspect-ratio: 4/3;
+        object-fit: contain;
+        mix-blend-mode: color-burn;
+
     }
 }
