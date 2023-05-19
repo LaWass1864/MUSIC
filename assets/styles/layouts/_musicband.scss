@@ -1,38 +1,29 @@
-.music-band{
-    background: pink;
-    position: relative;
-    margin: 0 auto;
-	width: 92.5%;
-#timeline{
-    span{
-        color: darken(white, 30%);
-		font-size: 7px;
-		position: absolute;
-		top: -10px;
-
-        #current-time{
-            left: 0;
-        }
-
-        #total-time{
-            right: 0;
-        }
+.music-band {
+  .card__time {
+    width: 100%;
+    color: #b1b1b1;
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    input {
+      width: 100%;
     }
-    .slider{
-        background-color: darken(white, 50%);
-		border-radius: 2px;
-		cursor: pointer;
-		height: 2px;
-		position: relative;
-		width: 100%;
 
-        .progress{
-            background-color: red;
-			height: 100%;
-			pointer-events: none;
-			position: absolute;
-			width: 0;
-        }
+    .card__time_info{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      .card__time_end{
+        margin-left: auto;
+      }
     }
-}
+  }
+  position: relative;
+  margin: 0 auto;
+  width: 92.5%;
 }

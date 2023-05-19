@@ -20,6 +20,10 @@ li {
   list-style: none;
 }
 
+img {
+  cursor: pointer;
+}
+
 section {
   background: #eee9e9;
   max-width: 30%;
@@ -35,13 +39,12 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav .settings {
-  display: flex;
-}
 nav .settings img {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
+  width: 30%;
+  aspect-ratio: 4/3;
+  -o-object-fit: contain;
+     object-fit: contain;
+  mix-blend-mode: color-burn;
 }
 
 header {
@@ -73,44 +76,44 @@ header img {
 }
 
 .music-band {
-  background: pink;
   position: relative;
   margin: 0 auto;
   width: 92.5%;
 }
-.music-band #timeline span {
-  color: #b3b3b3;
-  font-size: 7px;
-  position: absolute;
-  top: -10px;
+.music-band .card__time {
+  width: 100%;
+  color: #b1b1b1;
+  font-size: 0.7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
-.music-band #timeline span #current-time {
-  left: 0;
-}
-.music-band #timeline span #total-time {
-  right: 0;
-}
-.music-band #timeline .slider {
-  background-color: gray;
-  border-radius: 2px;
-  cursor: pointer;
-  height: 2px;
-  position: relative;
+.music-band .card__time input {
   width: 100%;
 }
-.music-band #timeline .slider .progress {
-  background-color: red;
-  height: 100%;
-  pointer-events: none;
-  position: absolute;
-  width: 0;
+.music-band .card__time .card__time_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.music-band .card__time .card__time_info .card__time_end {
+  margin-left: auto;
 }
 
 .music-control {
+  max-width: 70%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 .music-control img {
-  width: 35px;
-  height: 35px;
+  width: 30%;
+  aspect-ratio: 4/3;
+  -o-object-fit: contain;
+     object-fit: contain;
+  mix-blend-mode: color-burn;
 }/*# sourceMappingURL=index.css.map */

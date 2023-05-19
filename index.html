@@ -39,15 +39,13 @@
       </div>
 
       <div class="music-band">
-        <div id="timeline">
-            <span id="current-time">--:--</span>
-            <span id="total-time">--:--</span>
-            <div class="slider" data-direction="horizontal">
-                      <div class="progress">
-                          <div class="pin" id="progress-pin" data-method="rewind"></div>
-                      </div>
-                  </div>
-           </div>
+        <div class="card__time">
+          <input type="range" id="cardTimeRange" value= 0 step=0.01 name="time" min="0" max="4.39">
+          <div class="card__time_info">
+            <p id="cardTimeStart" class="card__time_start">0:00</p>
+            <p class="card__time_end">4:39</p>
+          </div>
+        </div>
       </div>
 
       <div class="music-control">
